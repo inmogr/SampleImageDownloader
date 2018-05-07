@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:padding="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:onClick="requestOfString"
+            android:text="@string/requestOfString"
+            style="@style/ExampleButton" />
+
+        <Button
+            android:onClick="requestOfJsonObject"
+            android:text="@string/requestOfJsonObject"
+            style="@style/ExampleButton" />
+
+        <Button
+            android:onClick="requestOfJsonArray"
+            android:text="@string/requestOfJsonArray"
+            style="@style/ExampleButton" />
+
+        <Button
+            android:onClick="requestOfImage"
+            android:text="@string/requestOfImage"
+            style="@style/ExampleButton" />
+
+        <Button
+            android:onClick="requestOfFile"
+            android:text="@string/requestOfFile"
+            style="@style/ExampleButton" />
+
+        <Button
+            android:onClick="requestOfStringExtended"
+            android:text="@string/requestOfStringExtended"
+            style="@style/ExampleButton" />
+
+    </LinearLayout>
+
+</ScrollView>

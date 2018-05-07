@@ -1,8 +1,0 @@
-<resources>
-    <dimen name="fab_margin">16dp</dimen>
-    <dimen name="button_radius_large">50dp</dimen>
-    <dimen name="button_text_size_12sp">12sp</dimen>
-    <dimen name="button_text_size_16sp">16sp</dimen>
-    <dimen name="button_content_padding">16dp</dimen>
-    <dimen name="edit_text_content_padding">8dp</dimen>
-</resources>
